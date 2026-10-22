@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faisal Yaseen | Personal Website</title>
+  <meta name="description" content="The personal website of Faisal Yaseen — a space for nature, travel, history, reading, and life's simple moments.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#173b30">
+  <meta property="og:title" content="Faisal Yaseen | Personal Website">
+  <meta property="og:description" content="Finding beauty in the simple things.">
+  <meta property="og:type" content="website">
+  <style>
+    :root { --forest:#173b30; --forest2:#244d3e; --cream:#f6f3eb; --ink:#1d2a24; --muted:#66736b; --gold:#c8a96b; --white:#fff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--cream); line-height:1.65; }
+    a { color:inherit; }
+    .nav { display:flex; justify-content:space-between; align-items:center; gap:1rem; max-width:1120px; padding:1.1rem 1.5rem; margin:auto; }
+    .brand { font-weight:750; letter-spacing:.03em; text-decoration:none; }
+    .navlinks { display:flex; gap:1.2rem; flex-wrap:wrap; }
+    .navlinks a { font-size:.92rem; text-decoration:none; color:#e6eee8; opacity:.9; }
+    .hero { color:#fff; background:linear-gradient(115deg, rgba(14,43,34,.9), rgba(14,43,34,.55)), url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=85') center/cover; min-height:580px; display:flex; flex-direction:column; }
+    .hero-content { width:min(1120px,100%); margin:auto; padding:5rem 1.5rem 7rem; }
+    .eyebrow { color:#e2cf9f; font-size:.78rem; text-transform:uppercase; letter-spacing:.2em; font-weight:700; }
+    h1 { font-size:clamp(3rem,8vw,6rem); line-height:1.02; letter-spacing:-.055em; max-width:800px; margin:.7rem 0 1.2rem; }
+    .lead { font-size:clamp(1.1rem,2.5vw,1.35rem); max-width:610px; color:#edf1ec; }
+    .button { display:inline-block; margin-top:1.2rem; padding:.8rem 1.15rem; background:#e3d0a0; color:#173b30; font-weight:700; border-radius:999px; text-decoration:none; }
+    section { padding:5rem 1.5rem; }
+    .wrap { max-width:1050px; margin:auto; }
+    .section-label { color:#7b6842; text-transform:uppercase; letter-spacing:.16em; font-size:.75rem; font-weight:800; }
+    h2 { font-size:clamp(2rem,4vw,3.2rem); letter-spacing:-.04em; line-height:1.12; margin:.5rem 0 1.2rem; }
+    .intro { max-width:760px; font-size:1.08rem; color:#4f5e55; }
+    .interests { background:#fff; }
+    .cards { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1rem; margin-top:2rem; }
+    .card { background:var(--cream); border-radius:18px; overflow:hidden; }
+    .card img { width:100%; height:180px; object-fit:cover; display:block; }
+    .card-body { padding:1.1rem; }
+    .card h3 { margin:0 0 .4rem; font-size:1.1rem; }
+    .card p { margin:0; color:var(--muted); font-size:.94rem; }
+    .quote { background:var(--forest); color:#fff; text-align:center; }
+    .quote blockquote { margin:0 auto; max-width:850px; font-family:Georgia,serif; font-size:clamp(1.7rem,4vw,3rem); line-height:1.35; }
+    .quote p { color:#d8e0d9; margin-top:1rem; }
+    .moments { display:grid; grid-template-columns:1.1fr .9fr; gap:2rem; align-items:center; }
+    .photo { width:100%; border-radius:20px; display:block; max-height:450px; object-fit:cover; }
+    .footer { background:#102b22; color:#dce6de; padding:2rem 1.5rem; }
+    .footer-inner { max-width:1050px; margin:auto; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; font-size:.9rem; }
+    .small { color:#9fb0a4; font-size:.83rem; }
+    @media(max-width:850px) { .cards { grid-template-columns:repeat(2,minmax(0,1fr)); } .moments { grid-template-columns:1fr; } }
+    @media(max-width:540px) { .nav { align-items:flex-start; flex-direction:column; } .hero-content { padding:4rem 1.25rem 5rem; } section { padding:3.5rem 1.25rem; } .cards { grid-template-columns:1fr; } .card img { height:220px; } }
+  </style>
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home">FAISAL YASEEN</a>
+      <div class="navlinks">
+        <a href="#about">About</a><a href="#interests">Interests</a><a href="#moments">My outlook</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <div class="eyebrow">A personal space</div>
+      <h1>Finding beauty in the simple things.</h1>
+      <p class="lead">Welcome to my corner of the world — a place for nature, travel, history, and the little moments that make life meaningful.</p>
+      <a class="button" href="#about">Get to know me</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="wrap">
+        <div class="section-label">A little about me</div>
+        <h2>Hello, I'm Faisal.</h2>
+        <p class="intro">I enjoy discovering beautiful places, learning from the past, and finding inspiration in everyday life. Whether it's a quiet landscape, a new destination, or a fascinating story from history, I believe there's always something worth noticing and learning.</p>
+        <p class="intro">This website is a small collection of the interests and ideas that inspire me. It's a work in progress, and I'll add more personal stories and favourite places over time.</p>
+      </div>
+    </section>
+
+    <section class="interests" id="interests">
+      <div class="wrap">
+        <div class="section-label">What I enjoy</div>
+        <h2>Curious by nature.</h2>
+        <p class="intro">A few things that make me feel connected to the world around me.</p>
+        <div class="cards">
+          <article class="card">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80" alt="Hikers walking on a scenic mountain trail">
+            <div class="card-body"><h3>Nature & hiking</h3><p>Fresh air, open trails, and landscapes that help put things in perspective.</p></div>
+          </article>
+          <article class="card">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Mountain peaks under a dramatic sky">
+            <div class="card-body"><h3>Travel & discovery</h3><p>Exploring new places, cultures, and ways of seeing the world.</p></div>
+          </article>
+          <article class="card">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80" alt="Bookshelves in a library">
+            <div class="card-body"><h3>History & reading</h3><p>Learning from the people, ideas, and events that shaped our world.</p></div>
+          </article>
+          <article class="card">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=800&q=80" alt="Golden morning light across a peaceful landscape">
+            <div class="card-body"><h3>Quiet moments</h3><p>Slowing down, noticing the details, and appreciating the present.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="wrap">
+        <blockquote>“Collect moments, keep learning, and let every new day bring a fresh perspective.”</blockquote>
+        <p>A simple thought to carry along the way.</p>
+      </div>
+    </section>
+
+    <section id="moments">
+      <div class="wrap moments">
+        <div>
+          <div class="section-label">My outlook</div>
+          <h2>There's always more to discover.</h2>
+          <p class="intro">I value curiosity, meaningful conversations, and experiences that help us grow. I hope this space reflects that spirit — thoughtful, grounded, and always open to something new.</p>
+          <p class="intro">Thanks for stopping by.</p>
+        </div>
+        <img class="photo" loading="lazy" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85" alt="Sunlight filtering through a peaceful green forest">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Faisal Yaseen · Personal website</div>
+      <div class="small">Made with care and a love of the outdoors.</div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
