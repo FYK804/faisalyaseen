@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Faisal Yaseen | Personal Website</title>
-  <meta name="description" content="The personal website of Faisal Yaseen — a space for nature, travel, history, reading, and life's simple moments.">
+  <title>Faisal Yaseen | Cryptocurrency Analyst in Toronto, Canada</title>
+  <meta name="description" content="Faisal Yaseen is a cryptocurrency analyst based in Toronto, Canada, originally from Faisalabad, Pakistan. Explore his interests in crypto markets, blockchain technology, and digital assets.">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#173b30">
-  <meta property="og:title" content="Faisal Yaseen | Personal Website">
-  <meta property="og:description" content="Finding beauty in the simple things.">
+  <meta property="og:title" content="Faisal Yaseen | Cryptocurrency Analyst">
+  <meta property="og:description" content="Cryptocurrency market research, blockchain technology, and digital-asset risk awareness. Based in Toronto, Canada; originally from Faisalabad, Pakistan.">
   <meta property="og:type" content="website">
   <style>
     :root { --forest:#173b30; --forest2:#244d3e; --cream:#f6f3eb; --ink:#1d2a24; --muted:#66736b; --gold:#c8a96b; --white:#fff; }
@@ -22,6 +22,10 @@
     .navlinks a { font-size:.92rem; text-decoration:none; color:#e6eee8; opacity:.9; }
     .hero { color:#fff; background:linear-gradient(115deg, rgba(14,43,34,.9), rgba(14,43,34,.55)), url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=85') center/cover; min-height:580px; display:flex; flex-direction:column; }
     .hero-content { width:min(1120px,100%); margin:auto; padding:5rem 1.5rem 7rem; }
+    .hero-profile { display:flex; align-items:center; gap:2rem; }
+    .profile-photo { width:190px; height:190px; flex:0 0 190px; object-fit:cover; object-position:center 30%; border:5px solid var(--gold); border-radius:50%; box-shadow:0 10px 28px rgba(0,0,0,.28); background:#fff; }
+    .hero-copy { min-width:0; }
+    @media(max-width:650px) { .hero-profile { flex-direction:column; align-items:flex-start; gap:1.2rem; } .profile-photo { width:145px; height:145px; flex-basis:145px; } }
     .eyebrow { color:#e2cf9f; font-size:.78rem; text-transform:uppercase; letter-spacing:.2em; font-weight:700; }
     h1 { font-size:clamp(3rem,8vw,6rem); line-height:1.02; letter-spacing:-.055em; max-width:800px; margin:.7rem 0 1.2rem; }
     .lead { font-size:clamp(1.1rem,2.5vw,1.35rem); max-width:610px; color:#edf1ec; }
@@ -55,48 +59,54 @@
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="#home">FAISAL YASEEN</a>
       <div class="navlinks">
-        <a href="#about">About</a><a href="#interests">Interests</a><a href="#moments">My outlook</a>
+        <a href="#about">About</a><a href="#interests">Interests</a><a href="#moments">My outlook</a><a href="#contact">Contact</a>
       </div>
     </nav>
     <div class="hero-content">
-      <div class="eyebrow">A personal space</div>
-      <h1>Finding beauty in the simple things.</h1>
-      <p class="lead">Welcome to my corner of the world — a place for nature, travel, history, and the little moments that make life meaningful.</p>
-      <a class="button" href="#about">Get to know me</a>
+      <div class="hero-profile">
+        <img class="profile-photo" src="profile-photo.png" alt="Portrait of Faisal Yaseen">
+        <div class="hero-copy">
+          <div class="eyebrow">Cryptocurrency Analyst</div>
+          <h1>Researching digital assets. Understanding the markets.</h1>
+          <p class="lead">Welcome to the professional profile of Faisal Yaseen — exploring cryptocurrency markets, blockchain technology, market trends, and risk-aware research.</p>
+          <p class="lead" style="font-size:1rem;margin-top:.5rem">Based in Toronto, Canada · Originally from Faisalabad, Pakistan</p>
+          <a class="button" href="#about">Explore my profile</a>
+        </div>
+      </div>
     </div>
   </header>
 
   <main>
     <section id="about">
       <div class="wrap">
-        <div class="section-label">A little about me</div>
-        <h2>Hello, I'm Faisal.</h2>
-        <p class="intro">I enjoy discovering beautiful places, learning from the past, and finding inspiration in everyday life. Whether it's a quiet landscape, a new destination, or a fascinating story from history, I believe there's always something worth noticing and learning.</p>
-        <p class="intro">This website is a small collection of the interests and ideas that inspire me. It's a work in progress, and I'll add more personal stories and favourite places over time.</p>
+        <div class="section-label">Professional profile</div>
+        <h2>Hello, I’m Faisal Yaseen.</h2>
+        <p class="intro">I’m a cryptocurrency analyst interested in understanding digital-asset markets, blockchain developments, and the factors that influence market behaviour.</p>
+        <p class="intro">My approach centres on research, clear thinking, and risk awareness. This website is a professional introduction and a place to share market observations and educational insights. Nothing here should be treated as financial advice.</p>
       </div>
     </section>
 
     <section class="interests" id="interests">
       <div class="wrap">
-        <div class="section-label">What I enjoy</div>
-        <h2>Curious by nature.</h2>
-        <p class="intro">A few things that make me feel connected to the world around me.</p>
+        <div class="section-label">Areas of interest</div>
+        <h2>Research. Context. Risk awareness.</h2>
+        <p class="intro">Topics I follow as I learn about the evolving digital-asset ecosystem.</p>
         <div class="cards">
           <article class="card">
             <img loading="lazy" src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80" alt="Hikers walking on a scenic mountain trail">
-            <div class="card-body"><h3>Nature & hiking</h3><p>Fresh air, open trails, and landscapes that help put things in perspective.</p></div>
+            <div class="card-body"><h3>Crypto market research</h3><p>Following market structure, price movements, and broader factors affecting digital assets.</p></div>
           </article>
           <article class="card">
             <img loading="lazy" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Mountain peaks under a dramatic sky">
-            <div class="card-body"><h3>Travel & discovery</h3><p>Exploring new places, cultures, and ways of seeing the world.</p></div>
+            <div class="card-body"><h3>Blockchain technology</h3><p>Learning how blockchain networks, protocols, and decentralised systems work.</p></div>
           </article>
           <article class="card">
             <img loading="lazy" src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80" alt="Bookshelves in a library">
-            <div class="card-body"><h3>History & reading</h3><p>Learning from the people, ideas, and events that shaped our world.</p></div>
+            <div class="card-body"><h3>Market trends</h3><p>Reviewing news, market data, and emerging developments with a critical perspective.</p></div>
           </article>
           <article class="card">
             <img loading="lazy" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=800&q=80" alt="Golden morning light across a peaceful landscape">
-            <div class="card-body"><h3>Quiet moments</h3><p>Slowing down, noticing the details, and appreciating the present.</p></div>
+            <div class="card-body"><h3>Risk awareness</h3><p>Recognising volatility, uncertainty, and the importance of careful independent research.</p></div>
           </article>
         </div>
       </div>
@@ -104,8 +114,8 @@
 
     <section class="quote">
       <div class="wrap">
-        <blockquote>“Collect moments, keep learning, and let every new day bring a fresh perspective.”</blockquote>
-        <p>A simple thought to carry along the way.</p>
+        <blockquote>“In fast-moving markets, thoughtful research and risk awareness matter.”</blockquote>
+        <p>A research-minded perspective on digital assets.</p>
       </div>
     </section>
 
@@ -113,19 +123,50 @@
       <div class="wrap moments">
         <div>
           <div class="section-label">My outlook</div>
-          <h2>There's always more to discover.</h2>
-          <p class="intro">I value curiosity, meaningful conversations, and experiences that help us grow. I hope this space reflects that spirit — thoughtful, grounded, and always open to something new.</p>
-          <p class="intro">Thanks for stopping by.</p>
+          <h2>Stay curious. Think independently.</h2>
+          <p class="intro">Cryptocurrency markets can be volatile and unpredictable. I value careful analysis, multiple perspectives, and continuous learning rather than treating any single view as certain.</p>
+          <p class="intro">The information on this website is for general educational purposes only and is not investment advice or a recommendation to buy or sell any asset.</p>
         </div>
         <img class="photo" loading="lazy" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85" alt="Sunlight filtering through a peaceful green forest">
       </div>
     </section>
   </main>
 
+
+    <section class="interests" id="contact">
+      <div class="wrap">
+        <div class="section-label">Get in touch</div>
+        <h2>Contact Faisal</h2>
+        <p class="intro">For professional enquiries, please use the contact details below.</p>
+        <div class="cards" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr));">
+          <article class="card">
+            <div class="card-body">
+              <h3>Business email</h3>
+              <p><a href="mailto:faisalyaseenofficial804@gmail.com">faisalyaseenofficial804@gmail.com</a></p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Business phone</h3>
+              <p><a href="tel:+15812456888">+1 (581) 245-6888</a></p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Location</h3>
+              <p>Toronto, Canada</p>
+              <p>Originally from Faisalabad, Pakistan</p>
+            </div>
+          </article>
+        </div>
+        <p class="small" style="margin-top:1.5rem">The information on this website is for general educational purposes only and is not financial or investment advice.</p>
+      </div>
+    </section>
+
   <footer class="footer">
     <div class="footer-inner">
       <div>© <span id="year"></span> Faisal Yaseen · Personal website</div>
-      <div class="small">Made with care and a love of the outdoors.</div>
+      <div class="small">Cryptocurrency research and educational insights · Toronto, Canada.</div>
     </div>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
